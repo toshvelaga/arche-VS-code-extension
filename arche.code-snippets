@@ -1,0 +1,55 @@
+{
+"Arche Component": {  
+"prefix": "arche",
+"body": [
+"const { useState, useEffect, useReducer } = React",
+"const ReactElement = Arche(React)",
+"const {",
+"  A, P, B, Q, I, Ul, Ol, Li,",
+"  H1, H2, H3, H4, H5, H6, Hr, Br,",
+"  Script, Html, Body, Nav, Section, Article, Footer, Span, Div, Img, Video,",
+"  Form, Fieldset, Input, Label, Textarea, Select, Option,",
+"  Button, Iframe, Blockquote, Code, Pre,",
+"} = ReactElement",
+"",
+"",
+"const ${1:name} = (props) => {",
+"const {} = props",
+"  return (",
+"    Div([",
+"      P(`${1:name}`)",
+"    ])",
+"  )",
+"};",
+"",
+"export default ${1:name};",
+""
+],
+"description": "React Functional Component"
+},
+
+"Arche Img Component": {
+"prefix": "Img",
+"body": [
+"Img({",
+"  class: '',",
+"  id: '',",
+"  src: 'https://yrcdn.net/assets/claimyr-logo.png',",
+"  alt: '',",
+"})",
+],
+"description": "React Functional Component"
+  },
+"Arche Button Component": {
+"prefix": "Button",
+"body": [
+"Button({",
+"  class: '',",
+"  id: '',",
+"  disabled: false,",
+"  onClick: () => alert('clicked')",
+"}, 'Submit')",
+],
+"description": "React Functional Component"
+}
+}
