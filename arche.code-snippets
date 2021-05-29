@@ -1,5 +1,5 @@
-{ 
 
+{
 "Arche Component": {  
 "prefix": "arche",
 "body": [
@@ -40,7 +40,8 @@
 "})",
 ],
 "description": "React Functional Component"
-  },
+},
+
 "Arche Button Component": {
 "prefix": "Button",
 "body": [
@@ -50,6 +51,40 @@
 "  disabled: false,",
 "  onClick: () => alert('clicked')",
 "}, 'Submit')",
+],
+"description": "React Functional Component"
+},
+
+"Arche Input Component": {
+"prefix": "Input",
+"body": [
+"Input({",
+"  class: '',",
+"  id: '',",
+"  placeholder: 'placeholder',",
+"  onChange: (e) => console.log(e.target.value),",
+"})",
+],
+"description": "React Functional Component"
+},
+
+"Arche Paragraph Component": {
+"prefix": "P",
+"body": [
+"P({",
+"  class: '',",
+"  id: '',",
+"}, 'text')",
+],
+"description": "React Functional Component"
+}, 
+
+"Arche Div Component": {
+"prefix": "Div",
+"body": [
+"Div({class: '', id: ''}, [",
+
+"])",
 ],
 "description": "React Functional Component"
 }
