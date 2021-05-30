@@ -83,10 +83,17 @@
 "prefix": "Div",
 "body": [
 "Div({class: '', id: ''}, [",
-
+"  $1",
 "])",
 ],
 "description": "React Functional Component"
-}
+},
 
+"Arche Span Component": {
+"prefix": "Span",
+"body": [
+"Span({class: '', id: ''}, 'Text here'),",
+],
+"description": "React Functional Component"
+}
 }
