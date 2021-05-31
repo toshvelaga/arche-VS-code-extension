@@ -50,7 +50,7 @@
 "  id: '',",
 "  disabled: false,",
 "  onClick: () => alert('clicked')",
-"}, 'Submit')",
+"}, 'Submit'),",
 ],
 "description": "React Functional Component"
 },
@@ -63,7 +63,7 @@
 "  id: '',",
 "  placeholder: 'placeholder',",
 "  onChange: (e) => console.log(e.target.value),",
-"})",
+"}),",
 ],
 "description": "React Functional Component"
 },
@@ -74,7 +74,7 @@
 "P({",
 "  class: '',",
 "  id: '',",
-"}, 'text')",
+"}, 'text'),",
 ],
 "description": "React Functional Component"
 }, 
@@ -93,6 +93,16 @@
 "prefix": "Span",
 "body": [
 "Span({class: '', id: ''}, 'Text here'),",
+],
+"description": "React Functional Component"
+},
+
+"Arche A Component": {
+"prefix": "A",
+"body": [
+"A({class: '', id: '', href: '/'}, [",
+"  $1",
+"]),",
 ],
 "description": "React Functional Component"
 }
